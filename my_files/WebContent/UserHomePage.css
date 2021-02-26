@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("icons/books.jpg");
+	font-family: Arial, Helvetica;
+	margin: 0
+}
+
+.header{
+	background-color: #3333cc;
+	text-align: center;
+}
+
+.header img{
+	width:60px;
+	position:relative;
+	border-radius: 50%;
+}
+
+.header h1{
+	font-size: 50px;
+	color:white;
+	display:inline;
+}
+
+.header h1:hover{
+	color:black
+}
+
+.header h5{
+	font-size: 80%;
+	color:#ffffe6;
+	display:inline;
+}
+
+.header h3{
+	color:white;
+	position:relative;
+	bottom:10px;
+	right:7px;
+}
+a:hover, a:visited, a:link, a:active
+{
+	text-decoration: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.row1{
+	padding: 16px;
+	color:black;
+	margin: auto;
+	width:680px;
+	background-color: #2e2eb8;
+	border-radius:25px;
+	box-shadow:0px 3px 12px white;
+	position:relative;
+	top:25px;
+	text-align: center;
+}
+
+input[type=submit]{
+	width:100%;
+}
+
+.footer{
+	position:relative;
+	top:50px;
+	background-color: black;
+	padding: 30px;
+	text-align: center;
+	color:white;
+}
